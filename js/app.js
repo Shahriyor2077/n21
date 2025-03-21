@@ -197,7 +197,4 @@ console.log(product.productInfo());
 product.setPrice=12000
 console.log(product.productInfo());
 
-drgkneorgn
-
-
 
