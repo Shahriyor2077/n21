@@ -182,20 +182,22 @@
 // console.log(user.first_name);
 
 
-// const product={
-//     nomi: "olma",
-//     miqdori: 5,
-//     price: 10000,
-//     productInfo(){
-//         return this;
-//     },
-//     set setPrice(newPrice){
-//         this.price=newPrice
-//     }
-// }
-// console.log(product.productInfo());
-// product.setPrice=12000
-// console.log(product.productInfo());
+const product={
+    nomi: "olma",
+    miqdori: 5,
+    price: 10000,
+    productInfo(){
+        return this;
+    },
+    set setPrice(newPrice){
+        this.price=newPrice
+    }
+}
+console.log(product.productInfo());
+product.setPrice=12000
+console.log(product.productInfo());
+
+drgkneorgn
 
 
 
